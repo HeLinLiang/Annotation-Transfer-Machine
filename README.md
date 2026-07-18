@@ -77,7 +77,7 @@ Annotation-Transfer-Machine/
 
 ### 环境要求
 ```bash
-pip install numpy pandas matplotlib scikit-learn tqdm
+pip install -r requirements.txt
 ```
 
 ### 构建索引
