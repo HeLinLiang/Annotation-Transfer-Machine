@@ -1,0 +1,28 @@
+{
+  "input": {
+    "retrieval_scores_dir": "/home/asus/projects_hll/windsurf_projects/ATM_2080/all_scores_202603/stage1_retriever/normalize_202603",
+    "rerank_results_dir": "/home/asus/projects_hll/windsurf_projects/ATM_2080/all_scores_202603/stage2_dafen",
+    "gold_file": "/home/asus/projects_hll/windsurf_projects/ATM_2080/retriever_top50_3models/results_2026_TOP50/biaozhu_results/gold_doc.tsv"
+  },
+  "output": {
+    "base_dir": "/home/asus/projects_hll/windsurf_projects/ATM_2080/all_scores_202603/stage3_ronghe/以AUC_PR为融合目标"
+  },
+  "parameters": {
+    "K": 100,
+    "theta_low": 0.2,
+    "beta_range": {
+      "start": 0.0,
+      "end": 1.0,
+      "step": 0.1
+    },
+    "theta_high_range": {
+      "start": 0.00,
+      "end": 1.00,
+      "step": 0.01
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "/home/asus/projects_hll/windsurf_projects/ATM_2080/all_scores_202603/stage3_ronghe/以AUC_PR为融合目标/auc_pr_optimization.log"
+  }
+}

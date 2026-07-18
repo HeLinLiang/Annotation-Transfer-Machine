@@ -1,0 +1,111 @@
+{"qid": "q1547001", "question": "What does IEEE Std 1547-2003 provide?", "answer": "It provides interconnection technical specifications and requirements, along with test specifications and requirements.", "gold_doc": "d2003001"}
+{"qid": "q1547002", "question": "What are the two main types of specifications mentioned in the standard?", "answer": "Technical specifications and test specifications.", "gold_doc": "d2003001"}
+{"qid": "q1547003", "question": "What information does Annex A contain?", "answer": "A bibliography of citations referred to in the standard for informative purposes.", "gold_doc": "d2003003"}
+{"qid": "q1547004", "question": "Are the citations in Annex A mandatory?", "answer": "No, they are for informative purposes and are not required to be used in conjunction with the standard.", "gold_doc": "d2003003"}
+{"qid": "q1547005", "question": "What is the primary scope of IEEE Std 1547-2003?", "answer": "It establishes criteria and requirements for the interconnection of distributed resources (DR) with electric power systems (EPS).", "gold_doc": "d2003005"}
+{"qid": "q1547006", "question": "**Acronym:** What do **DR** and **EPS** stand for in this standard?", "answer": "**DR** stands for Distributed Resources and **EPS** stands for Electric Power Systems.", "gold_doc": "d2003005"}
+{"qid": "q1547007", "question": "Which domains are covered by the interconnection requirements?", "answer": "Performance, operation, testing, safety considerations, and maintenance.", "gold_doc": "d2003007"}
+{"qid": "q1547008", "question": "**Acronym:** What does **PCC** stand for?", "answer": "**PCC** stands for Point of Common Coupling.", "gold_doc": "d2003008"}
+{"qid": "q1547009", "question": "Where must the requirements of the standard be satisfied?", "answer": "At the Point of Common Coupling (PCC).", "gold_doc": "d2003008"}
+{"qid": "q1547010", "question": "Can the equipment used to meet requirements be located away from the PCC?", "answer": "Yes, the devices can be located elsewhere, even though the requirements must be met at the PCC.", "gold_doc": "d2003008"}
+{"qid": "q1547011", "question": "How is the applicability of the standard determined for multiple units?", "answer": "It applies based on the aggregate rating of all DR units within the Local EPS.", "gold_doc": "d2003010"}
+{"qid": "q1547012", "question": "Do functions affecting the Area EPS need to meet the standard if they are located deep within the Local EPS?", "answer": "Yes, regardless of their location, if they affect the Area EPS, they must meet the standard.", "gold_doc": "d2003011"}
+{"qid": "q1547013", "question": "Which machine types are specifically mentioned as being covered?", "answer": "Synchronous machines, induction machines, and power inverters/converters.", "gold_doc": "d2003012"}
+{"qid": "q1547014", "question": "What is the maximum capacity limit for DR technologies under this standard?", "answer": "An aggregate capacity of 10 MVA or less at the PCC.", "gold_doc": "d2003015"}
+{"qid": "q1547015", "question": "What type of distribution systems does the standard focus on?", "answer": "Radial primary and secondary distribution systems.", "gold_doc": "d2003017"}
+{"qid": "q1547016", "question": "What is the standard frequency used for DR sources in this document?", "answer": "60 Hz.", "gold_doc": "d2003018"}
+{"qid": "q1547017", "question": "Does this standard limit the total DR capacity on a specific feeder?", "answer": "No, it does not define the maximum DR capacity for a particular installation or a given feeder.", "gold_doc": "d2003020"}
+{"qid": "q1547018", "question": "Under what paralleling duration is an automatic transfer scheme excluded?", "answer": "If the duration of paralleling is less than 100 ms (except as noted in section 4.1.4).", "gold_doc": "d2003025"}
+{"qid": "q1547019", "question": "Who is responsible for the design and maintenance of the Area EPS?", "answer": "The Area EPS Operator.", "gold_doc": "d2003036"}
+{"qid": "q1547020", "question": "What is the definition of the term \"cease to energize\"?", "answer": "It is defined as the cessation of energy outflow capability.", "gold_doc": "d2003037"}
+{"qid": "q1547021", "question": "What is the purpose of a \"design test\"?", "answer": "To demonstrate that a specific design manufactured to specifications meets those criteria.", "gold_doc": "d2003038"}
+{"qid": "q1547022", "question": "**Acronym:** What does **DG** stand for?", "answer": "**DG** stands for Distributed Generation.", "gold_doc": "d2003039"}
+{"qid": "q1547023", "question": "How is **DG** classified in relation to **DR**?", "answer": "DG is a subset of Distributed Resources (DR).", "gold_doc": "d2003039"}
+{"qid": "q1547024", "question": "What is the broad definition of Distributed Resources (DR)?", "answer": "Sources of electric power that are not directly connected to a bulk power transmission system.", "gold_doc": "d2003041"}
+{"qid": "q1547025", "question": "Are energy storage technologies included in the definition of DR?", "answer": "Yes, DR includes both generators and energy storage technologies.", "gold_doc": "d2003042"}
+{"qid": "q1547026", "question": "What is the difference between an **Area EPS** and a **Local EPS**?", "answer": "An Area EPS serves Local EPSs, while a Local EPS is contained within a single premises or group of premises.", "gold_doc": "d2003045"}
+{"qid": "q1547027", "question": "What components make up an \"interconnection system\"?", "answer": "All interconnection equipment and functions used to interconnect DR units to an Area EPS.", "gold_doc": "d2003048"}
+{"qid": "q1547028", "question": "What is an \"island\" in a power system?", "answer": "A state where a portion of an Area EPS is energized solely by Local EPSs while being electrically separated from the rest of the Area EPS.", "gold_doc": "d2003050"}
+{"qid": "q1547029", "question": "Define \"intentional\" vs \"unintentional\" islanding.", "answer": "Intentional islanding is planned; unintentional islanding is unplanned.", "gold_doc": "d2003052"}
+{"qid": "q1547030", "question": "What does the term \"non-islanding\" signify?", "answer": "It refers to a design intended to prevent an island from persisting.", "gold_doc": "d2003055"}
+{"qid": "q1547031", "question": "**Acronym:** What does **TDD** stand for?", "answer": "**TDD** stands for Total Demand Distortion.", "gold_doc": "d2003057"}
+{"qid": "q1547032", "question": "How is **TDD** calculated?", "answer": "It is the total root-sum-square harmonic current distortion as a percentage of the maximum demand load current.", "gold_doc": "d2003057"}
+{"qid": "q1547033", "question": "**Acronym:** What does **TRD** stand for?", "answer": "**TRD** stands for Total Rated-current Distortion.", "gold_doc": "d2003058"}
+{"qid": "q1547034", "question": "How is **TRD** calculated?", "answer": "The total root-sum-square of current harmonics divided by the greater of the test load current ($I_L$) or the DR unit rated current capacity ($I_{rated}$).", "gold_doc": "d2003058"}
+{"qid": "q1547035", "question": "What is the time requirement for detecting an unintentional island?", "answer": "The system must detect the island and cease to energize within two seconds.", "gold_doc": "d2003070"}
+{"qid": "q1547036", "question": "Must test results be formally documented?", "answer": "Yes, the results of the interconnection tests shall be formally documented.", "gold_doc": "d2003074"}
+{"qid": "q1547037", "question": "What is the required sequence for design tests?", "answer": "They should be conducted in the sequence specified in Table 4 on the same set of samples.", "gold_doc": "d2003081"}
+{"qid": "q1547038", "question": "What must the abnormal voltage and frequency test verify?", "answer": "That the DR ceases to energize the Area EPS when voltage or frequency exceeds limits in 4.2.3 and 4.2.4.", "gold_doc": "d2003082"}
+{"qid": "q1547039", "question": "What happens if synchronization parameters are outside the specified ranges in Table 5?", "answer": "The paralleling-device shall not close.", "gold_doc": "d2003085"}
+{"qid": "q1547040", "question": "What is tested for induction machine interconnections?", "answer": "The maximum start-up in-rush current.", "gold_doc": "d2003089"}
+{"qid": "q1547041", "question": "**Acronym:** What does **EMI** stand for?", "answer": "**EMI** stands for Electromagnetic Interference.", "gold_doc": "d2003093"}
+{"qid": "q1547042", "question": "Which standard is used for **EMI** testing?", "answer": "IEEE Std C37.90.2-1995.", "gold_doc": "d2003093"}
+{"qid": "q1547043", "question": "What standard applies to surge withstand testing for equipment under 1000 V?", "answer": "IEEE Std C62.45-2002.", "gold_doc": "d2003095"}
+{"qid": "q1547044", "question": "Which standard applies to surge testing of signal and control circuits?", "answer": "IEEE Std C37.90.1-2002.", "gold_doc": "d2003100"}
+{"qid": "q1547045", "question": "Where should the dielectric test be performed?", "answer": "Across the open-circuited paralleling device.", "gold_doc": "d2003101"}
+{"qid": "q1547046", "question": "What is the purpose of the dc injection test?", "answer": "To confirm that the DR does not inject dc current exceeding the limits in 4.3.1.", "gold_doc": "d2003103"}
+{"qid": "q1547047", "question": "What is the required short-circuit current capacity ($I_{SC}$) for the voltage source in a harmonics test?", "answer": "Not less than 20 times the DR rated output current.", "gold_doc": "d2003106"}
+{"qid": "q1547048", "question": "**Acronym:** What does **THD** stand for?", "answer": "**THD** stands for Total Harmonic Distortion.", "gold_doc": "d2003108"}
+{"qid": "q1547049", "question": "What is the limit for **THD** of the unloaded voltage waveform during testing?", "answer": "It must be less than 2.5%.", "gold_doc": "d2003108"}
+{"qid": "q1547050", "question": "At what output levels should harmonics be tested?", "answer": "33%, 66%, and as close to 100% of rated output current as practical.", "gold_doc": "d2003109"}
+{"qid": "q1547051", "question": "How many harmonics should be measured in the output current?", "answer": "The first 40 harmonics.", "gold_doc": "d2003111"}
+{"qid": "q1547052", "question": "For a 3-phase 4-wire synchronous generator, how is voltage harmonic distortion measured?", "answer": "Phase-to-neutral (line-to-neutral).", "gold_doc": "d2003115"}
+{"qid": "q1547053", "question": "When can a production test be performed?", "answer": "As a factory test or as part of a commissioning test.", "gold_doc": "d2003120"}
+{"qid": "q1547054", "question": "What coordination must be verified regarding Area EPS reclosing?", "answer": "The interconnection system must be coordinated with the Area EPS reclosing practices.", "gold_doc": "d2003126"}
+{"qid": "q1547055", "question": "When must the initial commissioning tests be performed?", "answer": "Prior to initial parallel operation.", "gold_doc": "d2003132"}
+{"qid": "q1547056", "question": "What are the mandatory commissioning tests?", "answer": "Operability of isolation device, unintentional-islanding functionality, and cease to energize functionality.", "gold_doc": "d2003133"}
+{"qid": "q1547057", "question": "What triggers a repeat of the design tests?", "answer": "Functional software/firmware changes or hardware component modifications/replacements.", "gold_doc": "d2003136"}
+{"qid": "q1547058", "question": "How is the \"cease to energize\" test performed?", "answer": "By operating a load interrupting device and verifying no restart/reconnection for the required time delay.", "gold_doc": "d2003143"}
+{"qid": "q1547059", "question": "Must the \"cease to energize\" test be performed on all phases?", "answer": "Yes, it shall be performed on each phase individually.", "gold_doc": "d2003144"}
+{"qid": "q1547060", "question": "Who specifies the periodic testing intervals?", "answer": "The manufacturer, system integrator, or the authority having jurisdiction.", "gold_doc": "d2003146"}
+{"qid": "q1547061", "question": "What records must be kept for periodic tests?", "answer": "Periodic test reports or a log for inspection.", "gold_doc": "d2003147"}
+{"qid": "q1547062", "question": "What does TDD stand for in harmonic analysis?", "answer": "Total demand distortion", "gold_doc": "d2003148"}
+{"qid": "q1547063", "question": "What quantity does TDD measure?", "answer": "The total root-sum-square harmonic current distortion", "gold_doc": "d2003148"}
+{"qid": "q1547064", "question": "How is TDD expressed?", "answer": "As a percentage", "gold_doc": "d2003148"}
+{"qid": "q1547065", "question": "What is the reference current for calculating TDD?", "answer": "The maximum demand load current", "gold_doc": "d2003148"}
+{"qid": "q1547066", "question": "What are the typical demand intervals for the reference current in TDD?", "answer": "15 or 30 minute demand", "gold_doc": "d2003148"}
+{"qid": "q1547067", "question": "What is a simulated utility?", "answer": "An assembly of variable frequency and variable voltage test equipment used to simulate a normal utility source.", "gold_doc": "d2003149"}
+{"qid": "q1547068", "question": "What kind of test equipment is used in a simulated utility?", "answer": "Variable frequency and variable voltage test equipment.", "gold_doc": "d2003149"}
+{"qid": "q1547069", "question": "What is the purpose of a simulated utility?", "answer": "To simulate a normal utility source.", "gold_doc": "d2003149"}
+{"qid": "q1547070", "question": "What does the test equipment in a simulated utility simulate?", "answer": "A normal utility source.", "gold_doc": "d2003149"}
+{"qid": "q1547071", "question": "Where must interconnection requirements be met?", "answer": "At the PCC", "gold_doc": "d2003150"}
+{"qid": "q1547072", "question": "Where can the devices used to meet interconnection requirements be located?", "answer": "Elsewhere, not necessarily at the PCC", "gold_doc": "d2003150"}
+{"qid": "q1547073", "question": "What types of interconnections do the requirements apply to?", "answer": "A single DR unit or multiple DR units within a single Local EPS", "gold_doc": "d2003150"}
+{"qid": "q1547074", "question": "What is the minimum required short circuit current capacity compared to the DR's rated output?", "answer": "Not less than 20 times the DR rated output current at fundamental frequency.", "gold_doc": "d2003151"}
+{"qid": "q1547075", "question": "What is the nature of the voltage source the DR shall be operated in parallel with?", "answer": "A predominantly inductive voltage source.", "gold_doc": "d2003151"}
+{"qid": "q1547076", "question": "How must the voltage source's output correspond to the DR's ratings?", "answer": "The voltage and frequency output shall correspond to the DR's rated voltage and frequency.", "gold_doc": "d2003151"}
+{"qid": "q1547077", "question": "What is the maximum allowed total harmonic distortion for the unloaded voltage source waveform?", "answer": "Less than 2.5% total harmonic distortion (THD).", "gold_doc": "d2003151"}
+{"qid": "q1547078", "question": "What do the interconnection test requirements demonstrate?", "answer": "That the interconnection system meets the requirements", "gold_doc": "d2003152"}
+{"qid": "q1547079", "question": "Are the interconnection tests required for all systems?", "answer": "Yes, for all interconnection systems", "gold_doc": "d2003152"}
+{"qid": "q1547080", "question": "How should the results of interconnection tests be handled?", "answer": "They must be formally documented", "gold_doc": "d2003152"}
+{"qid": "q1547081", "question": "What is the function of the test specifications and requirements?", "answer": "To provide test requirements for the interconnection system", "gold_doc": "d2003152"}
+{"qid": "q1547082", "question": "What is the maximum value for individual harmonic orders covered?", "answer": "Less than 11", "gold_doc": "d2003153"}
+{"qid": "q1547083", "question": "What does 'h' represent in the context of harmonics?", "answer": "Individual harmonic order", "gold_doc": "d2003153"}
+{"qid": "q1547084", "question": "Which harmonic orders are included in this specification?", "answer": "Harmonic orders less than 11", "gold_doc": "d2003153"}
+{"qid": "q1547085", "question": "What is the definition of 'cease to energize'?", "answer": "Cessation of energy outflow capability.", "gold_doc": "d2003154"}
+{"qid": "q1547086", "question": "What does it mean to cease to energize?", "answer": "To stop the capability of energy outflow.", "gold_doc": "d2003154"}
+{"qid": "q1547087", "question": "What must be verified through a system design verification?", "answer": "The isolation device system design", "gold_doc": "d2003155"}
+{"qid": "q1547088", "question": "What is the purpose of the system design verification for the isolation device?", "answer": "To ensure that applicable requirements have been met", "gold_doc": "d2003155"}
+{"qid": "q1547089", "question": "What specific requirements must the isolation device system design comply with?", "answer": "The requirements related to the isolation device", "gold_doc": "d2003155"}
+{"qid": "q1547090", "question": "What action is required for the isolation device?", "answer": "A system design verification must be performed", "gold_doc": "d2003155"}
+{"qid": "q1547091", "question": "What must be done regarding monitoring provisions?", "answer": "A system design verification shall be made", "gold_doc": "d2003156"}
+{"qid": "q1547092", "question": "What must the monitoring provisions be in accordance with?", "answer": "4.1.6", "gold_doc": "d2003156"}
+{"qid": "q1547093", "question": "What is the purpose of the system design verification?", "answer": "To ensure that the provisions for monitoring are in accordance with 4.1.6", "gold_doc": "d2003156"}
+{"qid": "q1547094", "question": "What aspect of the system is verified by the design verification?", "answer": "The provisions for monitoring", "gold_doc": "d2003156"}
+{"qid": "q1547095", "question": "What does an area electric power system serve?", "answer": "Local EPSs", "gold_doc": "d2003157"}
+{"qid": "q1547096", "question": "What are typical characteristics of an area electric power system?", "answer": "It has primary access to public rights-of-way and priority crossing of property boundaries", "gold_doc": "d2003157"}
+{"qid": "q1547097", "question": "What type of oversight is an area electric power system subject to?", "answer": "Regulatory oversight", "gold_doc": "d2003157"}
+{"qid": "q1547098", "question": "What does Figure 1 illustrate in this context?", "answer": "An area electric power system", "gold_doc": "d2003157"}
+{"qid": "q1547099", "question": "What does the system's response address?", "answer": "Abnormal voltage and frequency conditions", "gold_doc": "d2003158"}
+{"qid": "q1547100", "question": "What specific condition is referenced in the response?", "answer": "Condition 2", "gold_doc": "d2003158"}
+{"qid": "q1547101", "question": "What are the two electrical parameters that trigger a required response?", "answer": "Voltage and frequency", "gold_doc": "d2003158"}
+{"qid": "q1547104", "question": "What does the number '3' indicate in the context of synchronization?", "answer": "It denotes a specific, defined synchronization level, phase, or category", "gold_doc": "d2003159"}
+{"qid": "q1547105", "question": "What type of tests must be performed before DR operation?", "answer": "Initial commissioning tests", "gold_doc": "d2003130"}
+{"qid": "q1547106", "question": "On what equipment are initial commissioning tests required?", "answer": "Installed DR and interconnection system equipment", "gold_doc": "d2003130"}
+{"qid": "q1547110", "question": "What is unintentional islanding?", "answer": "An undesirable condition where a distributed resource continues to power a section of the grid after it has been isolated from the main power source.", "gold_doc": "d2003161"}
+{"qid": "q1547111", "question": "What must be done regarding unintentional islanding?", "answer": "It must be detected and prevented.", "gold_doc": "d2003161"}
+{"qid": "q1547112", "question": "What is a key objective for systems concerning islanding?", "answer": "To ensure they cannot continue to energize an isolated section of the grid.", "gold_doc": "d2003161"}
+{"qid": "q1547118", "question": "What system or component is tested during an interconnect integrity test?", "answer": "The interconnection system between a distributed resource and the grid.", "gold_doc": "d2003163"}
+{"qid": "q1547120", "question": "Under what condition must alternative testing procedures be used for islanding?", "answer": "When the specified standard tests are not applicable to the interconnection system.", "gold_doc": "d2003164"}
+{"qid": "q1547121", "question": "Who provides the procedures for testing an interconnection system when standard tests are not applicable?", "answer": "The manufacturer or system integrator.", "gold_doc": "d2003164"}
+{"qid": "q1547122", "question": "What must be tested in accordance with the manufacturer's procedures?", "answer": "The interconnection system.", "gold_doc": "d2003164"}

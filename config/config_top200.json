@@ -1,0 +1,79 @@
+{
+  "data_paths": {
+    "question_match_file": "../data/nq_rengong_filtered/nq_rengong_filtered.jsonl",
+    "qrels_file": "../data/beir/nq/qrels/test.tsv",
+    "corpus_file": "../data/beir/nq/corpus.jsonl",
+    "wiki18_corpus_file": "../data/wiki18_100w.jsonl"
+  },
+  "model_configs": {
+    "e5": {
+      "model_name": "e5-small-v2",
+      "model_path": "../models/e5-small-v2",
+      "index_path": "../index/e5_index/index_e5.faiss",
+      "metadata_path": "../index/e5_index/index_e5_metadata.pkl",
+      "encoder_type": "e5",
+      "retriever_type": "dense",
+      "enabled": true
+    },
+    "bge": {
+      "model_name": "bge-small-en-v1.5",
+      "model_path": "../models/bge-small-en-v1.5",
+      "index_path": "../index/bge_index/index_bge.faiss",
+      "metadata_path": "../index/bge_index/index_bge_metadata.pkl",
+      "encoder_type": "bge",
+      "retriever_type": "dense",
+      "enabled": true
+    },
+    "bm25": {
+      "model_name": "bm25",
+      "index_path": "/home/asus/projects_hll/windsurf_projects/ATM_2080/index/wiki18_bm25_index",
+      "retriever_type": "bm25",
+      "k1": 0.9,
+      "b": 0.4,
+      "threads": 4,
+      "enabled": true
+    },
+    "e5_large": {
+      "model_name": "e5-large-v2",
+      "model_path": "../models/e5-large-v2",
+      "index_path": "../index/e5_large_index/index_e5_large.faiss",
+      "metadata_path": "../index/e5_large_index/index_e5_large_metadata.pkl",
+      "encoder_type": "e5",
+      "retriever_type": "dense",
+      "enabled": true
+    },
+    "bge_m3": {
+      "model_name": "bge-m3",
+      "model_path": "../models/bge-m3",
+      "index_path": "../models/index/wiki18_bgem3_index.index",
+      "metadata_path": null,
+      "encoder_type": "bge_m3",
+      "retriever_type": "dense",
+      "enabled": true
+    }
+  },
+  "retrieval_config": {
+    "top_k": 200,
+    "batch_size": 32,
+    "device": "cuda",
+    "use_gpu_for_search": true,
+    "encode_batch_size": {
+      "e5": 128,
+      "e5_large": 64,
+      "bge": 128
+    },
+    "faiss_nprobe": 16,
+    "selected_models": [
+      "bm25"
+    ]
+  },
+  "output_config": {
+    "output_dir": "/home/asus/projects_hll/windsurf_projects/ATM_2080/retriever_top50_3models/results_2026_TOP200",
+    "output_file_pattern": "{model_name}_top200_results.jsonl",
+    "save_intermediate": true
+  },
+  "processing_options": {
+    "verbose": true,
+    "log_interval": 100
+  }
+}

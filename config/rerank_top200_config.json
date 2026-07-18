@@ -1,0 +1,87 @@
+{
+  "input_dir": "../results_2026_TOP200/",
+  "output_dir": "results/reranked_top200/",
+  "corpus_file": "../results_2026_TOP200/TOP200_in_wiki/extracted_docs.jsonl",
+  "gold_file": "../results_2026_TOP50/biaozhu_results/gold_doc.tsv",
+  
+  "retrievers": {
+    "bm25": {
+      "enabled": true,
+      "input_file": "bm25_top200_results.jsonl"
+    },
+    "bge": {
+      "enabled": true,
+      "input_file": "bge_top200_results.jsonl"
+    },
+    "e5": {
+      "enabled": true,
+      "input_file": "e5_top200_results.jsonl"
+    },
+    "e5_large": {
+      "enabled": true,
+      "input_file": "e5_large_top200_results.jsonl"
+    },
+    "bge_bm25_mixed": {
+      "enabled": true,
+      "input_file": "bge_bm25_interleaving_top200_rerank_format.jsonl"
+    }
+  },
+  
+  "rerankers": {
+    "no_rerank": {
+      "enabled": true,
+      "description": "直接使用检索排序"
+    },
+    "rouge_l": {
+      "enabled": true,
+      "description": "ROUGE-L 重排"
+    },
+    "nli": {
+      "enabled": true,
+      "model_name": "../../models/deberta-v3-base-mnli",
+      "batch_size": 8,
+      "device": "cuda",
+      "description": "NLI 模型重排"
+    },
+    "cross_encoder": {
+      "enabled": true,
+      "model_name": "../../models/bge-reranker-base",
+      "batch_size": 8,
+      "device": "cuda",
+      "description": "Cross-Encoder 重排"
+    },
+    "ms_marco_l12": {
+      "enabled": true,
+      "model_name": "../../models/ms-marco-MiniLM-L12-v2",
+      "batch_size": 32,
+      "device": "cuda",
+      "max_query_length": 256,
+      "max_doc_length": 256,
+      "max_total_length": 512,
+      "use_fp16": false,
+      "description": "MS-MARCO MiniLM-L12-v2 Cross-Encoder 重排"
+    },
+    "monot5_base": {
+      "enabled": true,
+      "model_name": "/home/asus/projects_hll/windsurf_projects/ATM_2080/models/monot5-base-msmarco-10k",
+      "batch_size": 4,
+      "device": "cuda",
+      "max_query_length": 256,
+      "max_doc_length": 256,
+      "max_total_length": 512,
+      "use_fp16": false,
+      "description": "MonoT5-base (220M参数) - 强passage ranking模型"
+    }
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "log_file": "results/reranked_top200/rerank_evaluation_top200.log"
+  },
+  
+  "evaluation": {
+    "top_k_for_rerank": 200,
+    "top_k_for_eval": 200,
+    "metrics": ["recall", "precision", "mrr", "ndcg"]
+  }
+}
